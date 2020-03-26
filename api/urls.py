@@ -1,5 +1,4 @@
 from django.urls import path
-from django.conf.urls import include
 from .views import sign_up, login, add_item, menu, place_order, order_history
 
 

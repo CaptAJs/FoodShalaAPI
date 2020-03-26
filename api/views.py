@@ -1,7 +1,6 @@
 from .models import Users, Restaurant, Food, Orders
-from .serializers import UserSerializer, filter_user_details, filter_restaurant_details
+from .serializers import filter_user_details, filter_restaurant_details
 from rest_framework.decorators import api_view
-from django.db.models import Sum
 import json
 import datetime
 from.utils import UserType, password_hash, generate_auth_token, decorate_response, query
